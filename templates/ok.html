@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static', filename='styles/styly.css')}}">
+    <script src="/static/js/main.js"></script>
+
+    <script src="https://js.pusher.com/beams/service-worker.js"></script>
+    <script src="https://js.pusher.com/beams/1.0/push-notifications-cdn.js"></script>
+
+    <title>Hlídač nemovitostí</title>
+</head>
+<body>
+<header><div>
+Rádi vás budeme informovat o nově přidaných nemovitostech. <br>
+
+Email, na který si přejete dostávat upozornění, je: <br><br>
+
+<indent>
+      {% if user_input %}
+           <h4 style="color: blue;"> {{user_input}} </h4>
+        <?PHP
+        echo shell_exec("python static/python/scraper.py");
+        ?>
+    {% endif %}
+
+</indent>
+
+</body>
+</html>

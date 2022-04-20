@@ -1,0 +1,111 @@
+    .content {
+    max-width: 500px;
+    margin: auto;
+    }
+
+        table {
+            margin: 0 auto;
+            font-size: large;
+            border: 1px solid black;
+        }
+
+        .center {
+        margin-left: auto;
+        margin-right: auto;
+        }
+        div.center {
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #006600;
+            font-size: xx-large;
+            font-family: 'Gill Sans',
+                'Gill Sans MT', ' Calibri',
+                'Trebuchet MS', 'sans-serif';
+        }
+
+        td {
+            background-color: #E4F5D4;
+            border: 1px solid black;
+        }
+
+        th,
+        td {
+            font-weight: bold;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        td {
+            font-weight: lighter;
+        }
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+body {
+  margin: 50px;
+  font-family: Noto Serif, Garamond, serif;
+  background-color: white;
+  font-color: brown;
+  text-align: center;
+  }
+header, footer {
+  font-size: 20px
+  font-color: brown;
+  align: center;
+  text-align: center;
+  padding: 200px;
+  background: radial-gradient(circle, #C18173, #D8AEA5, white, red, #601909, brown, black);
+  }
+
+header2 {
+  font-size: 20px
+  font-color: brown;
+  align: center;
+  text-align: center;
+  padding: 200px;
+  background: radial-gradient(circle, blue, white, #e2e5e7, #c4ced5, #86a6bd, #1e435d);
+}
+
+div {
+    float: center;
+    }
+
+h1 {
+    font-size 20px;
+    font-color: brown;
+    }
+
+h2 {
+    font-size: 15px;
+    color: black;
+    }
+
+p {
+    font-variant: small-caps;
+    font-size 12px;
+    text-align: center;
+   }
+
+ form {
+    align: center;
+    padding: 20px;
+  }
+
+ .button1 {
+  border-radius: 17px;
+  background-color: #37170F;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
